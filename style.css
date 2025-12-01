@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+}
+.main{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: white;
+}
+
+.list{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    list-style: none;
+    justify-content: center;
+    margin: 20px;
+    color: gray;
+}
+.item{
+    font-size: 1.2rem;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Username{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    height: 50px;
+    width: 80px;
+    border: 0;
+    background-color: rgb(206, 241, 247);
+    color: rgb(88, 191, 223);
+}
+.Hero{
+    height: calc(100vh-80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.Left{
+        max-width: 50%;
+        display: felx;
+        justify-content: center;
+        flex-direction: column;
+}
+.Right img{
+    width: 450px;
+    height: auto;
+}
+.Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clothes{
+    padding-right: 0;
+    font-size: 44px;
+    font-weight: bold;
+}
+#cloth{
+    color:rgb(88, 191, 223);
+}
+#para{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+    line-height: 1.6; 
+    max-width: 450px;
+}
+#Bookbtn{
+    height: 55px;
+    width: 230px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(88, 191, 223);
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
